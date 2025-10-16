@@ -2,7 +2,7 @@
 
 An interactive, educational blockchain demonstration built with Next.js 15 and deployed on Vercel.
 
-🔗 **[Live Demo](#)** *(Add your Vercel URL here after deployment)*
+🔗 **[Live Demo](https://blockchain-nine-vert.vercel.app/)** - Try mining your own blocks!
 
 ## Features
 

@@ -173,7 +173,7 @@ export default function Home() {
             Educational demo • Blockchain resets periodically • Rate limited to 5 blocks per minute
           </p>
           <p className="mt-2 text-xs">
-            Built with Next.js • In-memory storage (no database)
+            Built with Next.js • In-memory storage (no database) • <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">View Source</a>
           </p>
         </footer>
       </div>

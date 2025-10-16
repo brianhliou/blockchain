@@ -1,6 +1,23 @@
 {
-  "name": "blockchain",
-  "version": "0.1.0",
+  "name": "blockchain-demo",
+  "version": "1.0.0",
+  "description": "Interactive blockchain demonstration with proof-of-work mining in the browser",
+  "author": "Brian Liou",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianhliou/blockchain.git"
+  },
+  "keywords": [
+    "blockchain",
+    "proof-of-work",
+    "cryptocurrency",
+    "education",
+    "demo",
+    "nextjs",
+    "web-workers",
+    "sha256"
+  ],
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
