@@ -1,0 +1,38 @@
+'use client';
+
+export default function Header() {
+  return (
+    <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 shadow-sm">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
+          {/* Left side - Title */}
+          <div className="flex-shrink-0">
+            <h1 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">
+              Blockchain Demo
+            </h1>
+          </div>
+
+          {/* Right side - Navigation */}
+          <nav className="flex items-center gap-3 sm:gap-6">
+            <a
+              href="https://brianhliou.github.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+            >
+              Brian Liou
+            </a>
+            <a
+              href="https://github.com/brianhliou"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+            >
+              GitHub
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+  );
+}
